@@ -1,10 +1,10 @@
-# MoodleAttendo
+# Moodle-Attendo
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/d527ab1e-f907-45b3-9712-135f07faaaee" alt="prbcare" width="400">
 </p>
 
-MoodleAttendo adalah aplikasi automation untuk menandai kehadiran pada website elearning berbasis Moodle. Aplikasi ini dibuat berdasarkan hasil dari reverse enginering pada salah satu website elearning berbasis moodle dengan versi 4.3.
+Moodle-Attendo adalah aplikasi automation untuk menandai kehadiran pada website elearning berbasis Moodle. Aplikasi ini dibuat berdasarkan hasil dari reverse enginering pada salah satu website elearning berbasis moodle dengan versi 4.3.
 
 ## Environment Variables
 
@@ -22,7 +22,7 @@ MoodleAttendo membutuhkan environment variables berikut yang harus diatur sebelu
 
 ### Docker Image
 
-1. Fork repositori ini dan buat image menggunakan github actions atau lakukan pull image dari yang sudah ada di [sini](https://ghcr.io/scrkiddie/moodleattendo:latest).
+1. Fork repositori ini dan buat image menggunakan github actions atau lakukan pull image dari yang sudah ada di [sini](https://ghcr.io/hilmi-raif/moodle-attendo:latest).
 2. Jalankan image dengan environment variables yang diperlukan dan argumen ID course yang bisa didapatkan di halaman course pada website berbasis moodle.
 
 <p align="center">
